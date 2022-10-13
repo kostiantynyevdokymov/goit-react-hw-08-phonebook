@@ -7,6 +7,7 @@ export const MainPage = styled.div`
   align-items: center;
   font-size: 40px;
   color: #010101;
+  border: 3px solid orangered;
 
   & h1 {
     font-size: 40px;

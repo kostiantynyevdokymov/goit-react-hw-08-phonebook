@@ -10,20 +10,17 @@ export const UserMenuStyled = styled.div`
     font-weight: 500;
   }
 
-  & img {
-    display: block;
-    margin-right: 5px;
-  }
-
   & button {
     background-color: transparent;
-    border: none;
+    border: 1px solid black;
+    border-radius: 2px;
 
     transition: color 250ms linear;
 
     &:hover,
     &:focus {
-      color: orangered;
+      color: white;
+      background-color: orangered;
     }
   }
 

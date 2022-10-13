@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import authOperation from 'redux/auth/auth-operation';
 import FormStyled from 'components/Register/Register.styled';
 import Button from '@mui/material/Button';
-import { TailSpin } from 'react-loader-spinner';
+import { Oval } from 'react-loader-spinner';
 import InputMail from '../Phonebook/Input/InputMail/inputMail';
 import InputPassword from 'components/Phonebook/Input/InputPassword/InputPassword';
 
@@ -60,15 +60,17 @@ const LogIn = () => {
         disabled={isLoad}
       >
         {isLoad ? (
-          <TailSpin
-            height="20"
-            width="20"
-            color="#ff4500"
-            ariaLabel="tail-spin-loading"
-            radius="1"
+          <Oval
+            height={80}
+            width={80}
+            color="#fd4b1a"
             wrapperStyle={{}}
             wrapperClass=""
             visible={true}
+            ariaLabel="oval-loading"
+            secondaryColor="#e8c91a"
+            strokeWidth={2}
+            strokeWidthSecondary={2}
           />
         ) : (
           'Log In'

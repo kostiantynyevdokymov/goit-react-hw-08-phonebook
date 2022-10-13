@@ -1,8 +1,8 @@
 import { useSelector } from 'react-redux';
-import defaultAvatar from '../../images/avatar.png';
+
 import { useDispatch } from 'react-redux';
 import authOperation from 'redux/auth/auth-operation';
-import { HiOutlineLogout } from 'react-icons/hi';
+
 import { UserMenuStyled } from './UserMenu.styled';
 
 const UserMenu = () => {
@@ -11,10 +11,9 @@ const UserMenu = () => {
   return (
     <UserMenuStyled>
       <span>{name}</span>
-      <img src={defaultAvatar} width="40" alt="user avatar" />
 
       <button type="button" onClick={() => dispatch(authOperation.logOut())}>
-        <HiOutlineLogout />
+        Logout
       </button>
     </UserMenuStyled>
   );

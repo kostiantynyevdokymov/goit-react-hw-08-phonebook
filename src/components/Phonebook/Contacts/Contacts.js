@@ -12,7 +12,7 @@ import {
   ContactsButtons,
   PhoneLink,
 } from './Contacts.styled';
-import { IoCallSharp } from 'react-icons/io5';
+import { AiFillPhone } from 'react-icons/ai';
 
 const Contacts = ({ name }) => {
   const data = useSelector(state => state.contacts.items);
@@ -38,7 +38,7 @@ const Contacts = ({ name }) => {
             <ContactsButtons>
               <li key="PhoneLink">
                 <PhoneLink href={'tel:' + data.number}>
-                  <IoCallSharp />
+                  <AiFillPhone />
                 </PhoneLink>
               </li>
               <li key="ButtonDelete">

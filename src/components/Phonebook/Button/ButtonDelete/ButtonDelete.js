@@ -3,7 +3,7 @@ import ButtonDeleteStyle from './ButtonDelete.styled';
 import PropTypes from 'prop-types';
 import contactsOperation from 'redux/contacts/contacts-operation';
 import { useDispatch } from 'react-redux';
-import { IoTrashBinSharp } from 'react-icons/io5';
+import { AiFillDelete } from 'react-icons/ai';
 import { useSelector } from 'react-redux';
 
 const ButtonDelete = ({ id }) => {
@@ -16,7 +16,7 @@ const ButtonDelete = ({ id }) => {
       disabled={isLoad}
       onClick={() => dispatch(contactsOperation.deleteContact(id))}
     >
-      <IoTrashBinSharp />
+      <AiFillDelete />
     </ButtonDeleteStyle>
   );
 };
