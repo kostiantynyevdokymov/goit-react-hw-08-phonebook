@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize; bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -15,7 +15,7 @@ code {
 }
 
 form .button-signup {
-  background-color: #ff4500;
+  background-color: skyblue;
   width: 94px;
   height: 37px;
 
@@ -24,5 +24,5 @@ form .button-signup {
 
 form .button-signup:hover,
 form .button-signup:focus {
-  background-color: #dd3b00;
+  background-color: #477587;
 }

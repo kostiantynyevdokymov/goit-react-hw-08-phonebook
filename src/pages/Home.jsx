@@ -3,25 +3,26 @@ import {
   DevelopedBy,
   LinkIconsList,
 } from '../components/Home/Home.styled';
-import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 const Home = () => {
   return (
     <>
-      <Title>Welcome to Phonebook service</Title>
-      <DevelopedBy>Developed by Mykhailo Shyhin</DevelopedBy>
+      <Title>Welcome! This is Phonebook.app</Title>
+
       <LinkIconsList>
         <li>
-          <a href="https://github.com/Glagolio">
-            <BsGithub />
+          <a href="https://github.com/kostiantynyevdokymov">
+            <AiFillGithub />
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/mykhailo-shyhin/">
-            <BsLinkedin />
+          <a href="https://www.linkedin.com/in/kostiantyn-yevdokymov/">
+            <AiFillLinkedin />
           </a>
         </li>
       </LinkIconsList>
+      <DevelopedBy>Developed by Kostiantyn Yevdokymov 2022</DevelopedBy>
     </>
   );
 };

@@ -4,8 +4,8 @@ const Input = styled.input`
   margin-top: 10px;
   width: 250px;
   height: 30px;
-
   font-size: 24px;
+  border-radius: 5px;
 
   & p {
     font-size: 14px;

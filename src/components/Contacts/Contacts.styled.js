@@ -1,6 +1,12 @@
 import styled from '@emotion/styled';
 
 const ContactsItem = styled.div`
+  width: 300px;
+  margin-top: 10px;
+  padding: 15px 10px;
+  border: 3px solid skyblue;
+  border-radius: 5px;
+
   & p {
     margin-bottom: 10px;
     margin-top: 0;
@@ -73,7 +79,7 @@ export const PhoneLink = styled.a`
   }
 
   &:hover {
-    color: orangered;
+    color: skyblue;
     transform: translateY(-5px);
   }
 `;

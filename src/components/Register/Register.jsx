@@ -1,7 +1,7 @@
 import FormStyled from './Register.styled';
-import InputName from '../Phonebook/Input/InputName/InputName';
-import InputMail from '../Phonebook/Input/InputMail/inputMail';
-import InputPassword from 'components/Phonebook/Input/InputPassword/InputPassword';
+import InputName from '../Input/InputName/InputName';
+import InputMail from '../Input/InputMail/inputMail';
+import InputPassword from 'components/Input/InputPassword/InputPassword';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import authOperation from 'redux/auth/auth-operation';

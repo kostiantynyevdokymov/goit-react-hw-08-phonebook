@@ -4,8 +4,8 @@ import authOperation from 'redux/auth/auth-operation';
 import FormStyled from 'components/Register/Register.styled';
 import Button from '@mui/material/Button';
 import { Oval } from 'react-loader-spinner';
-import InputMail from '../Phonebook/Input/InputMail/inputMail';
-import InputPassword from 'components/Phonebook/Input/InputPassword/InputPassword';
+import InputMail from '../Input/InputMail/inputMail';
+import InputPassword from 'components/Input/InputPassword/InputPassword';
 
 const LogIn = () => {
   const dispatch = useDispatch();
@@ -63,7 +63,7 @@ const LogIn = () => {
           <Oval
             height={80}
             width={80}
-            color="#fd4b1a"
+            color="#477587"
             wrapperStyle={{}}
             wrapperClass=""
             visible={true}

@@ -17,7 +17,8 @@ const FormStyled = styled.form`
     margin-top: 5px;
     margin-bottom: 10px;
     border-radius: 2%;
-    border: 2px solid black;
+    border: 2px solid blue;
+    border-radius: 5px;
     outline: none;
 
     font-size: 24px;
@@ -25,7 +26,7 @@ const FormStyled = styled.form`
     transition: border-color 250ms linear;
 
     &:focus-visible {
-      border-color: orangered;
+      border-color: skyblue;
     }
   }
 `;

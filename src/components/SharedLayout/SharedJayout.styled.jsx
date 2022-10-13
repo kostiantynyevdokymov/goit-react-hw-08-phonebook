@@ -26,7 +26,7 @@ export const NavigationLink = styled(NavLink)`
   text-decoration: none;
   color: black;
   font-weight: 500;
-
+  background-color: skyblue;
   transition: background-color 250ms linear, color 250ms linear;
 
   &:not(:last-child) {
@@ -35,14 +35,14 @@ export const NavigationLink = styled(NavLink)`
 
   &:hover,
   &:focus {
-    background-color: orangered;
+    background-color: #477587;
     color: white;
   }
 
-  &.active {
+  /* &.active {
     color: white;
-    background-color: #dd3b00;
-  }
+    background-color: #477587;
+  } */
 `;
 
 export const AutorizationLink = styled(NavLink)`
@@ -55,7 +55,7 @@ export const AutorizationLink = styled(NavLink)`
   transition: color 250ms linear;
 
   &.active {
-    color: #dd3b00;
+    color: #477587;
   }
 
   &:not(:last-child) {
@@ -64,7 +64,7 @@ export const AutorizationLink = styled(NavLink)`
 
   &:hover,
   &:focus {
-    color: orangered;
+    color: skyblue;
   }
 `;
 

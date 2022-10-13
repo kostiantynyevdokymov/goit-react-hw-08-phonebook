@@ -12,7 +12,7 @@ const ButtonDeleteStyle = styled.button`
   }
 
   &:hover {
-    color: orangered;
+    color: skyblue;
     transform: translateY(-5px);
   }
 

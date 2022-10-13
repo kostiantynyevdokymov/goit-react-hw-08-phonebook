@@ -12,7 +12,7 @@ export const UserMenuStyled = styled.div`
 
   & button {
     background-color: transparent;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 2px;
 
     transition: color 250ms linear;
@@ -20,7 +20,7 @@ export const UserMenuStyled = styled.div`
     &:hover,
     &:focus {
       color: white;
-      background-color: orangered;
+      background-color: skyblue;
     }
   }
 

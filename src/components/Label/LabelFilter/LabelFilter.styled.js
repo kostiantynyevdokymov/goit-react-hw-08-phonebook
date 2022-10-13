@@ -1,16 +1,19 @@
 import styled from '@emotion/styled';
 
-const Label = styled.label`
-  display: flex;
-  flex-direction: column;
-  font-size: 32px;
+const LabelFilterStyle = styled.label`
+  margin: 0;
+  /* margin-bottom: 10px; */
+  font-size: 24px;
 
-  & span {
-    font-size: 20px;
+  & p {
+    margin: 0;
+    padding: 0;
+
+    font-size: 16px;
   }
 
   & input {
-    margin-top: 5px;
+    margin-top: 0;
     margin-bottom: 10px;
     border-radius: 2%;
     border: 2px solid black;
@@ -21,9 +24,9 @@ const Label = styled.label`
     transition: border-color 250ms linear;
 
     &:focus-visible {
-      border-color: orangered;
+      border-color: skyblue;
     }
   }
 `;
 
-export default Label;
+export default LabelFilterStyle;

@@ -1,10 +1,10 @@
 import Phonebook from '../components/Phonebook/Phonebook';
 import Main from '../components/Main/Main';
-import Contacts from '../components/Phonebook/Contacts/Contacts';
+import Contacts from '../components/Contacts/Contacts';
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import contactsOperation from 'redux/contacts/contacts-operation';
-import { EmptyPhonebookText } from 'components/Phonebook/Contacts/Contacts.styled';
+import { EmptyPhonebookText } from 'components/Contacts/Contacts.styled';
 
 const ContactsPage = () => {
   const data = useSelector(state => state.contacts.items);
