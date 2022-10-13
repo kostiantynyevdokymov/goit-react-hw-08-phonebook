@@ -7,8 +7,8 @@ const ButtonDeleteStyle = styled.button`
   transition: transform 250ms linear, color 250ms linear;
   transform: translateY(0);
   & svg {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 
   &:hover {
